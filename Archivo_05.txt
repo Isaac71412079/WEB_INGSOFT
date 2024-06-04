@@ -1,0 +1,66 @@
+° Scrum (Pilares: Transparencia, Inspección y Adaptación)
+
+	* Eventos:
+		- Sprint Planning
+		- Daily Scrum
+		- Refinamientos de Product Backlog
+		- Sprint Review (Demo)
+		- Retrospectiva
+	* Artefactos
+		- Product Backlog,
+		- Sprint Backlog
+		- Incremento de producto
+	* Responsabilidades (Scrum Team):
+		- Product Owner
+		- Scrum Master
+		- Development Team
+
+° Responsabilidades...
+	* Product Owner
+		- maximizar el valor del producto resultante del trabajo del scrum team
+	* Scrum Master
+		- ayuda al equipo a comprender y aplicar scrum
+	* Development Team
+		- quienes se comprometen a crear un incremento de producto (devs, ux, testers, etc)
+
+° Sprint Planning
+	- Partimos teniendo el product backlog priorizado en base al valor de negocio para el usuario, e historias de usuario pequeñas y bien definidas
+	- tres partes de la reunión del sprint planning:
+		* Objetivo
+		* Qué
+			- Estimamos qué se puede implementar en el sprint que estamos iniciando
+		* Cómo
+			- Conversaciones técnicas de alto nivel para definir tareas necesarias para implementar las historias de usuario
+
+	- Artefacto que producimos:
+		* Sprint Backlog
+	- Importante y útil: Definir un Objetivo del Sprint al que las historias de usuario estarán alineadas
+	- Product Owner/Cliente prioriza, development team estima
+
+° Sprint Backlog
+	Usaremos trello
+	* Columnas para iniciar:
+		- Product Backlog
+		- Sprint backlog
+		- En progreso
+		- Terminada
+
+° Daily Scrum
+- Reunión de 15 minutos, diaria, del equipo y para el equipo
+- Para coordinar actividades
+- Encontrar puntos de colaboración y apoyo
+- Usualmente cada miembro del equipo responde:
+	* Que hice desde la última vez que nos reunimos
+	* Que me comprometo a terminar hasta la próxima reunión
+	* Que dificultades/bloqueos tengo?
+
+° Sprint Review (Demo)
+	-Al finalizar el sprint
+	- Reunión para obtener feedback del producto
+	- Momento de inspección del producto, para adaptarlo a partir del feedback
+
+° Retrospectiva del Sprint
+	- Reunión del equipo para inspeccionar la forma de trabajo (proceso)
+	- Y a partir de eso identificar mejoras a la forma de trabajo (adaptar el proceso)
+	- Afinar la forma de trabajo implica el compromiso del equipo para identificar puntos de mejora y luego aplicarlas
+
