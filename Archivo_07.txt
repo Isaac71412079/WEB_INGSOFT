@@ -1,0 +1,81 @@
+° Es posible ignorar archivos o carpetas que no queremos o necesitamos gestionar con git. Por ejemplo:
+	- Archivos autogenerados a partir del código fuente o por alguna herramienta
+	- Logs,
+	- archivos temporales, etc
+	- Especificamos estos archivos en el archivo .gitignore
+	- Ejemplo contenido archivo .gitignore:
+	Ignorando archivos a gestionar con git
+		dist
+		node_modules
+		.cache
+		.parcel-cache
+		webrat.log
+		coverage/
+		*.orig
+
+° Ramas en git
+	Una rama, es una bifurcación del estado actual del código, que crea un nuevo camino (rama) para la evolución del mismo.
+	Una rama es un puntero a un commit
+	Siempre existe por lo menos una rama (branch): master ó main
+	Puede ser útil en varias situaciones. Por ejemplo:
+		- Realizar algunos cambios en el código que no quieres que se realicen en la línea principal de commits.
+		- Desarrollar nuevas funcionalidades para una aplicación sin obstaculizar el desarrollo de la rama principal
+		- Corregir un error urgente en producción, mientras desarrollas otra funcionalidad
+
+	Un puntero especial que tenemos es HEAD:
+	- Que apunta al commit en el que nos encontramos (puede apuntar de forma directa a ese commit, o a través de un branch
+
+°Algunos comandos relacionados a ramas:
+	- Ver las ramas: git branch
+	- Se puede ver todas las ramas con: git branch -a
+	- Crear una rama: git branch <nombre-rama>
+	- Moverse a una rama: git checkout <nombre-rama>
+	- Los dos anteriores se pueden realizar con un solo comando:
+		* git checkout -b <nombre-rama>
+	- Ver log de commits con ramas: git log --oneline --decorate
+	- Desde la rama donde se combinará los commits ejecutamos: git merge <nombre-rama-a-combinar>
+	- Borrar Rama con el comando: git branch -d rama1
+	- Pull Request, cuando ejecutamos el comando: git push origin master
+
+° Flujo para desarrollar una historia de usuario (feature branch):
+	Actualizar mi version local con los cambios del repositorio central(github)
+		$ git pull
+	Iniciamos el desarrollo de la historia de usuario, desde master:
+		$ git checkout –b historia_usuario
+	En esa rama, realizamos los cambios necesarios en el código y vamos haciendo commits y/o confirmando cambios
+		$ git commit –am “mensaje cambio” (Usualmente se tiene varios commits)
+	Cuando finaliza la historia, volvemos a master:
+		$git checkout main
+	Refrescamos main con posibles cambios, de otras personas, en el repositorio remoto:
+		$git pull
+
+SI HUBIERA CAMBIOS:
+	Volvemos al branch:
+		$git checkout historia_usuario
+	Actualizamos el branch con los cambios en master:
+		$git rebase main //similar a un merge, manteniendo más limpio/ordenado el log de commits
+	Y volvemos a main:
+		$git checkout main
+	Unimos los cambios del branch con main:
+		$git merge historia_usuario
+	Actualizamos repositorio remoto:
+		$git push
+° Manteniendo limpios nuestro repo local y remoto
+	Luego de haber integrado y haber subido a github, es posible borrar el branch con:
+		$git branch –d historia_usuario
+	Si es que se se habría subido la rama a github, tambien se puede borar el branch del repositorio remoto con:
+		$git push origin :nombre-rama
+			ó
+		$git push origin --delete nombre_rama
+	Y eliminar las referencias locales a la rama ya no existente:
+		$git remote update origin --prune
+	Se puede ver todas las ramas y referencias ramas remotas con:
+		$git branch -a
+
+° Borrar un archivo ya subido a github: git rm -r --cached nombre-archivo-carpeta
+° Deshacer el último commit empezando desde cero:
+		git reset HEAD^ --hard
+		git push origin -f
+° Deshacer el último commitpero no perder los cambios actuales:
+		git reset HEAD^ --soft
+
