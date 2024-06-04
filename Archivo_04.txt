@@ -1,0 +1,46 @@
+Algunas técnicas:
+
+- ¿Por qué estamos aquí?
+- Elevator pitch
+- Diseñar una caja de producto
+- Crear un NOT List(IN, OUT, UNRESOLVED)
+- Conocer a tus vecinos (your project community)
+- ¿Qué nos mantiene despiertos?
+- ¿Donde podemos negociar? (Trade-off sliders)
+- Mostrar la solución
+- Medirlo
+- Mostrar lo que va a tomar
+
+° Elevator Pitch:
+	Para [cliente]
+	quién [necesidad u oportunidad]
+	el [nombre de proyecto]
+	es un [categoría de producto]
+	que [beneficio clave, razón para comprar].
+	a diferencia de [competencia]
+	nuestro proyecto [principal diferencial].
+
+° User Story Mapping (USM)
+	- Es una herramienta para definir la lista de funcionalidades de un producto usando dos dimensiones (matriz)
+	- Lo cual es útil para gestionar de mejor manera una cantidad más grande de funcionalidades
+	- También para planificar el desarrollo incremental del producto, definiendo entregables periodicamente.
+
+	Como: comprador
+	Quiero: poder buscar un producto por nombre
+	Para: encontrar el producto de forma rápida/eficientemente
+	
+	Criterios de confirmación:
+	- Cuando el usuario digita un nombre de producto en el campo de búsqueda de nombre, se debería mostrar el nombre y descripción de todos los productos  		que coincidan con el criterio ingresado por el usuario
+	- Si el usuario ingresa un nombre que no tenga coincidencias, se debería mostrar el mensaje “No existen productos con ese nombre”
+	- Si el usuario no ingresa ningún texto e intenta realizar la búsqueda por nombre, se debería mostrar el mensaje: “Por favor, ingrese un nombre de producto 		para buscar”
+
+Historia de Usuario
+
+- I ndependiente
+- N egociables
+- V alor
+- E stimables
+- S mall (pequeña)
+- T esteable
+
+
