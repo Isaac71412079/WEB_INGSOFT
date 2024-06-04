@@ -1,4 +1,4 @@
-° Scrum (Pilares: Transparencia, Inspección y Adaptación)
+Â° Scrum (Pilares: Transparencia, InspecciÃ³n y AdaptaciÃ³n)
 
 	* Eventos:
 		- Sprint Planning
@@ -15,7 +15,7 @@
 		- Scrum Master
 		- Development Team
 
-° Responsabilidades...
+Â° Responsabilidades...
 	* Product Owner
 		- maximizar el valor del producto resultante del trabajo del scrum team
 	* Scrum Master
@@ -23,21 +23,21 @@
 	* Development Team
 		- quienes se comprometen a crear un incremento de producto (devs, ux, testers, etc)
 
-° Sprint Planning
-	- Partimos teniendo el product backlog priorizado en base al valor de negocio para el usuario, e historias de usuario pequeñas y bien definidas
-	- tres partes de la reunión del sprint planning:
+Â° Sprint Planning
+	- Partimos teniendo el product backlog priorizado en base al valor de negocio para el usuario, e historias de usuario pequeÃ±as y bien definidas
+	- tres partes de la reuniÃ³n del sprint planning:
 		* Objetivo
-		* Qué
-			- Estimamos qué se puede implementar en el sprint que estamos iniciando
-		* Cómo
-			- Conversaciones técnicas de alto nivel para definir tareas necesarias para implementar las historias de usuario
+		* QuÃ©
+			- Estimamos quÃ© se puede implementar en el sprint que estamos iniciando
+		* CÃ³mo
+			- Conversaciones tÃ©cnicas de alto nivel para definir tareas necesarias para implementar las historias de usuario
 
 	- Artefacto que producimos:
 		* Sprint Backlog
-	- Importante y útil: Definir un Objetivo del Sprint al que las historias de usuario estarán alineadas
+	- Importante y Ãºtil: Definir un Objetivo del Sprint al que las historias de usuario estarÃ¡n alineadas
 	- Product Owner/Cliente prioriza, development team estima
 
-° Sprint Backlog
+Â° Sprint Backlog
 	Usaremos trello
 	* Columnas para iniciar:
 		- Product Backlog
@@ -45,22 +45,22 @@
 		- En progreso
 		- Terminada
 
-° Daily Scrum
-- Reunión de 15 minutos, diaria, del equipo y para el equipo
-- Para coordinar actividades
-- Encontrar puntos de colaboración y apoyo
-- Usualmente cada miembro del equipo responde:
-	* Que hice desde la última vez que nos reunimos
-	* Que me comprometo a terminar hasta la próxima reunión
-	* Que dificultades/bloqueos tengo?
+Â° Daily Scrum
+	- ReuniÃ³n de 15 minutos, diaria, del equipo y para el equipo
+	- Para coordinar actividades
+	- Encontrar puntos de colaboraciÃ³n y apoyo
+	- Usualmente cada miembro del equipo responde:
+		* Que hice desde la Ãºltima vez que nos reunimos
+		* Que me comprometo a terminar hasta la prÃ³xima reuniÃ³n
+		* Que dificultades/bloqueos tengo?
 
-° Sprint Review (Demo)
+Â° Sprint Review (Demo)
 	-Al finalizar el sprint
-	- Reunión para obtener feedback del producto
-	- Momento de inspección del producto, para adaptarlo a partir del feedback
+	- ReuniÃ³n para obtener feedback del producto
+	- Momento de inspecciÃ³n del producto, para adaptarlo a partir del feedback
 
-° Retrospectiva del Sprint
-	- Reunión del equipo para inspeccionar la forma de trabajo (proceso)
+Â° Retrospectiva del Sprint
+	- ReuniÃ³n del equipo para inspeccionar la forma de trabajo (proceso)
 	- Y a partir de eso identificar mejoras a la forma de trabajo (adaptar el proceso)
 	- Afinar la forma de trabajo implica el compromiso del equipo para identificar puntos de mejora y luego aplicarlas
 
