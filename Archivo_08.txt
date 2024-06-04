@@ -1,0 +1,46 @@
+° Características deseables de las pruebas de unidad..
+	F ast (rápida)
+	I  ndependiente
+	R epetible
+	S elf validating (auto evaluable)
+	T imely (oportuna)
+
+	Z Zero
+	O One
+	M Many (or More complex)
+	B Boundary Behaviors
+	I Interface definition
+	E Exercise Exceptional behavior
+	S Simple Scenarios, Simple Solutions
+
+Refactoring: (“Mejorar la calidad interna del código (legibilidad y/o mantenibilidad) sinalterar su funcionalidad”)
+	Elegancia
+	Simple, directo, prosa
+	Lo que esperas
+	Cuidado
+° El código debe:
+	- Pasar los tests
+	- Denotar la intención de la programadora
+	- No duplicar conocimiento
+	- Tener el menor número de elementos posibles
+° Nombres - Resumen
+	- Revelar la intención
+	- Evitar la desinformación
+	- Nombres de Clases y variables son sustantivos: Cuenta, Mensaje, no Datos, Gestor, Info
+	- Evita codificaciones
+	- Nombres para clases y variables
+		* Predicados para variables booleanas
+	- Verbos para métodos
+		* Predicados para métodos booleanos
+° Funciones
+	- Las funciones debería ser pequeñas
+	- 2da regla: debería ser incluso más pequeñas
+	- Cuan grande debería ser una función?
+	- Max 10 líneas. 20 líneas ya es lo suficientemente grande
+	- Los argumentos y funciones deben de ser compuestos por verbo y sustantivo.
+
+° Principios fundamentales de arquitectura
+	- Cohesión
+		* El nivel de relación de los elementos dentro de un módulo debería ser alto
+	- Acoplamiento
+		* El nivel de relación entre módulos debería ser bajo
