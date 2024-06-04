@@ -1,0 +1,25 @@
+git init: Inicia un nuevo repositorio Git en el directorio actual, estableciendo el seguimiento de cambios en los archivos.
+
+git config --global user.name “IsaacRivero”: Configura el nombre de usuario para Git a nivel global.
+
+git config --global user.email “isaac.rivero@ucb.edu.bo”: Configura la dirección de correo electrónico asociada al usuario Git a nivel global.
+
+git code .: Abre el directorio actual en Visual Studio Code, facilitando el inicio de desarrollo.
+
+git status: Muestra el estado actual del repositorio, indicando archivos modificados, añadidos o pendientes de confirmar.
+
+git add .: Añade todos los archivos modificados al área de preparación para ser incluidos en el próximo commit.
+
+git commit -m "version 1.3": Confirma los cambios en el repositorio, asignándoles un mensaje descriptivo.
+
+git log: Muestra un historial de commits, con información detallada sobre cada uno.
+
+git checkout 6212b18d3be2b869f7820a7ccf045f62e61aee49: Cambia el estado del repositorio al commit especificado.
+
+git checkout master: Cambia a la rama "master" del repositorio.
+
+git remote add origin https://github.com/Isaac71412079/VENTAS-PC.git: Establece una conexión remota llamada "origin" a un repositorio en línea en GitHub.
+
+git branch -M main: Renombra la rama principal de "master" a "main".
+
+git push -u origin main: Sube los cambios al repositorio remoto en la rama principal, estableciendo una relación de seguimiento y actualizando la rama en línea con los cambios locales.
