@@ -1,0 +1,46 @@
+Áreas de la Ing. Software
+(Según la IEEE)
+
+
+-Requerimientos
+
+-Diseño/Arquitectura
+
+-Construcción/Programación
+
+-Pruebas
+-Evolución/Mantenimiento
+
+-Administración de la configuración
+
+-Procesos de Ingeniería
+
+-Administración de Proyectos
+
+-Herramientas y Métodos
+
+-Calidad
+
+Acceder a elementos del DOM:
+- getElementById()
+- querySelector()
+- querySelectorAll()
+- Estos métodos devuelven objetos de
+tipo HTMLElement.
+- Los objetos HTMLElement tienen un
+API amplio, que permiten acceder y manipular los elementos
+
+Algunas propiedades de objetos HTMLElement:
+- innerText
+- innerHTML
+- textContent
+- classList
+
+Algunos métodos de objetos HTMLElement:
+- getAttribute(key)
+- removeAttribute(key)
+- hasAttributes(.)
+- setAtribute(key, value)
+- addEventListener(.)
+- insertAdjacentHTML(.)
+- insertAdjacentElement(.)
