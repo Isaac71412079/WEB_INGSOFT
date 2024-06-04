@@ -1,0 +1,47 @@
+Automatización de pruebas TDD...
+- Automatizar pruebas se puede realizar después de desarrollar un
+programa
+- Sin embargo TDD invierte el proceso, escribiendo primero la prueba
+automatizada que falla.
+	Es decir, TDD implica dirigir el desarrollo del código por pruebas 	automatizadas.
+	
+	Las pruebas se tornan en una pequeña especificación de funcionalidad 		que queremos que el código de producción realice.
+
+Manifiesto por el Desarrollo Ágil de Software
+
+
+° Individuos e interacciones sobre procesos y herramientas
+
+° Software funcionando sobre documentación extensiva
+
+° Colaboración con el cliente sobre negociación contractual
+
+° Respuesta ante el cambio sobre seguir un plan
+
+
+Esto es, aunque valoramos los elementos de la derecha,
+valoramos más los de la izquierda.
+
+Principios del Manifiesto Ágil
+:
+
+° Nuestra mayor prioridad es satisfacer al cliente
+mediante la entrega temprana y continua de software
+con valor.
+
+
+° Aceptamos que los requisitos cambien, incluso en etapas
+tardías del desarrollo. Los procesos Agiles aprovechan
+el cambio para proporcionar ventaja competitiva al
+cliente.
+
+
+° Entregamos software funcional frecuentemente, entre dos
+semanas y dos meses, con preferencia al periodo de
+tiempo más corto posible.
+
+
+° Los responsables de negocio y los desarrolladores
+trabajamos juntos de forma cotidiana durante todo 
+el proyecto.
+
