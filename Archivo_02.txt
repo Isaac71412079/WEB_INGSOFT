@@ -1,31 +1,38 @@
-羠eas de la Ing. Software
-(Seg鷑 la IEEE)
+脕reas de la Ing. Software
+(Seg煤n la IEEE)
 
 
 -Requerimientos
 
--Dise駉/Arquitectura
+-Dise帽o/Arquitectura
 
--Construcci髇/Programaci髇
+-Construcci贸n/Programaci贸n
 
 -Pruebas
--Evoluci髇/Mantenimiento
+-Evoluci贸n/Mantenimiento
 
--Administraci髇 de la configuraci髇
+-Administraci贸n de la configuraci贸n
 
--Procesos de Ingenier韆
+-Procesos de Ingenier铆a
 
--Administraci髇 de Proyectos
+-Administraci贸n de Proyectos
 
--Herramientas y M閠odos
+-Herramientas y M茅todos
 
 -Calidad
+
+- Desarrollo iterativo/incremental
+      git, JS, deployment (netlify)
+- Pr谩cticas de agilidad para el desarrollo de software
+      TDD, refactoring, dise帽o simple, integraci贸n continua, etc.
+- Conceptualizaci贸n de productos: Planificaci贸n 谩gil
+      Agile inception, Historias de usuario, planificaci贸n iterativa/incremental
 
 Acceder a elementos del DOM:
 - getElementById()
 - querySelector()
 - querySelectorAll()
-- Estos m閠odos devuelven objetos de
+- Estos m茅todos devuelven objetos de
 tipo HTMLElement.
 - Los objetos HTMLElement tienen un
 API amplio, que permiten acceder y manipular los elementos
@@ -36,7 +43,7 @@ Algunas propiedades de objetos HTMLElement:
 - textContent
 - classList
 
-Algunos m閠odos de objetos HTMLElement:
+Algunos m茅todos de objetos HTMLElement:
 - getAttribute(key)
 - removeAttribute(key)
 - hasAttributes(.)
